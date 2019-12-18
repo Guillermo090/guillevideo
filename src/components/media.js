@@ -27,6 +27,7 @@ class Media extends Component {
     render(){
         return (
             <div className="Media " onClick={this.handleClick}  > 
+            
                 <div className="Media-cover">
                     <img 
                         className="Media-image"
